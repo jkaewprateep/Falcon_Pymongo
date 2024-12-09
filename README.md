@@ -11,6 +11,7 @@ Falcon webservice with Pymongo
 
 🧸💬 Invest time in implementation database no-SQL, documentary, migrational, and scalability. Cursor query support with an aggregation function creates useful database results from the selection, time, and post-query process. </br>
 🐐💬 NO-SQL database is fast and you do not need to take time reading from database schemas when somebody tries to encrypt a field between tables, encryption algorithm, user access level, the name columns table separation, and more they are good at transaction log and will create the number of volumes if you are directly read from them ( they implement aggregation functions and one reason are you own aggregation functions without document and expertise in the specific database you read from aggregation name where modification may be limited by relational database -> you cannot see full statement inside the aggregate function when complied ) 👻💬💬 Boo ~! ~! </br>
+🦭💬 MongoDB, MariaDB, and RedisDB are good for online transactions because we write more than read with contrast different ratios where we use aggregate results for delay processes, implementing ```pymongo``` is one good example of transaction logging and objects like transparent in program variable ( there are more complex query I wrote but they do not create benefits if we are talking about why MongoDB is good for online database ) </br>
 
 ```
 import array
