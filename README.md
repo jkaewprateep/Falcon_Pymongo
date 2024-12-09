@@ -38,7 +38,7 @@ class MongoDBDatabase :
         return
     
     def get_database( self ):
-
+        # 🧸💬 As an object read the database and return requirements connection with connection for database operations
         # Provide the mongodb atlas url to connect python to mongodb using pymongo
         # CONNECTION_STRING = "mongodb://localhost:27017/tg_subaccount";
         CONNECTION_STRING = "mongodb://localhost:27017";
@@ -50,6 +50,7 @@ class MongoDBDatabase :
         return client['tg_subaccount']
 
     def insert_insertrecordlogging( self, header, url, response, ip_address, agent_id, requester ):
+        # 🧸💬 Simple implement of transaction logging
         timestamp = datetime.utcnow();
         type = "INSERT RECORD";
         responsetime = datetime.utcnow();
@@ -59,6 +60,7 @@ class MongoDBDatabase :
         return;
 
     def insert_insertorderlogging( self, header, url, response, ip_address, agent_id, requester ):
+        # 🧸💬 Simple implement of transaction logging
         timestamp = datetime.utcnow();
         type = "INSERT ORDER";
         responsetime = datetime.utcnow();
@@ -68,7 +70,7 @@ class MongoDBDatabase :
         return;
    
     def insert_requesttoDB( self, timestamp, type, header, url, response, ip_address, agent_id, responsetime, requester ):
-    
+        # 🧸💬 Simple implement of transaction logging
         item_1 = {
             "timestamp": timestamp,
             "type": type,
@@ -88,7 +90,7 @@ class MongoDBDatabase :
         return;
 
     def find_userrecordfromDB( self, username, requester ):
-
+        # 🧸💬 Simple implement of transaction logging query
         item_1 = {
             "username" : username,
         };
@@ -100,7 +102,7 @@ class MongoDBDatabase :
         return resultset;
 
     def query_userstatusfromDB( self, username ):
-
+        # 🧸💬 Simple implement of transaction logging query
         item_1 = {
             "username" : username,
         };
