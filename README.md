@@ -9,6 +9,9 @@ Falcon webservice with Pymongo
     <b> ( Picture from Internet ) </b> </br>
 </p>
 
+🧸💬 Invest time in implementation database no-SQL, documentary, migrational, and scalability. Cursor query support with an aggregation function creates useful database results from the selection, time, and post-query process. </br>
+🐐💬 NO-SQL database is fast and you do not need to take time reading from database schemas when somebody tries to encrypt a field between tables, encryption algorithm, user access level, the name by columns table separation, and more they are good at transaction log and will create the number of volumes if you are directly read from them ( they implement aggregation functions and one reason are you own aggregation functions without document and expertise in the specific database you read from aggregation name where modification may be limited by relational database -> you cannot see full statement inside the aggregate function when complied ) </br>
+
 ```
 import array
 from pymongo import MongoClient;
